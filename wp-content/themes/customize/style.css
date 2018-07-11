@@ -1,0 +1,18 @@
+/*
+ Theme Name:   WPB Child Theme
+ Theme URI:    http://www.wpbeginner.com/
+ Description:  A Twenty Thirteen child theme 
+ Author:       WPBeginner
+ Author URI:   http://www.wpbeginner.com
+ Template:     illdy
+ Version:      1.0.0
+ */
+ 
+ @import url("../illdy/layout/css/main.css");
+ @font-face {
+ 	font-family: "dual";
+ 	src: url(dual/Dual-300.otf) format("opentype");
+ }
+ body{
+ 	font-family: dual !important;
+ }

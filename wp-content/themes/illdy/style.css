@@ -1,0 +1,227 @@
+/*
+Theme Name: Illdy
+Theme URI: http://colorlib.com/wp/themes/illdy/
+Author: Colorlib
+Author URI: http://colorlib.com
+Description: Illdy is a stunning multipurpose WordPress theme built based on Bootstrap frontend framework making it fully responsive and mobile friendly. This theme is well suited for business, landing page, portfolio or any other creative websites. This leaves heavy lifting to WordPress Customizer therefore you can create your website on live preview mode. Which means that you can see changes happen on your website in real time as you make them
+Version: 2.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, e-commerce, portfolio
+Text Domain: illdy
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url("layout/css/main.css");
+@font-face {
+	font-family: "dual";
+	src: url(layout/fonts/dual/Dual-300.otf) format("opentype");
+}
+body{
+	font-family: dual;
+}
+
+#header .top-header .header-navigation{
+	text-transform: uppercase;
+	margin-left: 20%;
+	float: none !important;
+}
+
+#header .top-header .header-navigation ul li a{
+	color: white;
+	text-shadow: 1px 1px 3px #54473b;
+	font-family: dual;
+	font-size: 1em;
+}
+
+.top-header > div > div > div{
+	text-align:  center;
+	width: 90vw;
+}
+
+.top-header > div > div > div > a > img{
+}
+
+#header .bottom-header h1 h5{
+	color: white;
+	font-family: dual;
+	text-shadow: 2px 2px #1f1812;
+	text-align: right;
+}
+#header .bottom-header h1{
+	text-shadow: 1px 1px 3px black;
+}
+
+.services{
+	font-family: "Poppins";
+	font-weight:  700;
+	width:40vw; 
+	height:50vh; 
+	background-color:black; 
+	margin: 4px 4px 4px 4px; 
+	display: inline-grid;
+	color: white;
+	cursor: pointer;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	text-shadow: 2px 2px 9px black;
+	@media(min-width: 300px) {
+		width:90vw; 
+		height:80vh; 
+		background-color:black; 
+		margin: 4px 4px 4px 4px; 
+		display: block;
+	}
+}
+.services > a {
+	color: white;
+	text-align: left;
+	margin-left: 40px;
+	position:  relative;
+	top: 25%;
+	font-size:  25px !important;
+	width: 95%;
+	word-break: break-word;
+	line-height: 50px;
+}
+.headLogo > img{
+	width:  10%;
+	height:  auto;
+}
+.services > a:hover{
+	color: yellow;
+}
+.servicesSection{
+	text-align: left;
+}
+.front-page-section{
+	padding-top: 0px;
+}
+
+.frontTitles{
+	font-family:  dual;
+	font-size:  50px;
+}
+.frontText{
+	margin-bottom: 20px;
+	font-size:  20px;
+}
+.servicesList{
+	text-align:  left;
+	font-stretch: 10;
+	font-weight: 100px;
+	font-size: 20px;
+}
+
+.top-header > div > div > div{
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 92vw;
+}
+
+.top-header > .container{
+	margin-left: 20px;
+}
+
+#footer{
+	background-color: #ddb045;	
+}
+
+
+.textwidget > ul >li >a{
+	color: white;
+	font-family: dual;
+}
+
+.widget:not(.widget_rss):not(.widget_recent_comments):not(.widget_recent_entries) ul li:before{
+	color: white;
+}
+#wpcw_contact-6 > ul >li >strong{
+	color: white;
+}
+
+#wpcw_contact-6 > ul >li >div>a{
+	color: white;
+}
+
+.widget-title{
+	font-family: dual;
+}
+
+#header.header-front-page{
+	background-image: url('http://localhost/mwwt_wp/wp-content/uploads/2018/07/Punta-Cana_028.jpg') !important;
+}
+
+.contentTemplate  {
+	font-family: dual;		
+}
+
+.contentTemplate  > h6{
+	font-family: dual;		
+}
+.contentTemplate > h5 {
+	text-transform: uppercase;
+}
+
+.contentTemplate > p{
+	height: 45vh;
+}
+
+.contentTemplate  >ul >li{
+	font-family: dual;		
+}
+
+#blog{
+	padding: 75px 0 40px 0;
+}
+body.page-template-default > header {
+	background-attachment: fixed;
+	background-position: bottom;
+	height: 70%;
+}
+body.page-id-264 > header{
+	background-image: url('http://localhost/mwwt_wp/wp-content/uploads/2018/07/event_2.jpg') !important;
+}
+body.page-id-271 > header{
+	background-image: url('http://localhost/mwwt_wp/wp-content/uploads/2018/07/hotels_1.jpg') !important;
+}
+body.page-id-276 > header{
+	background-image: url('http://localhost/mwwt_wp/wp-content/uploads/2018/07/main_3.jpeg') !important;
+}
+body.page-id-280 > header{
+	background-image: url('http://localhost/mwwt_wp/wp-content/uploads/2018/07/20160306-DJI_0201-HDR-1200x800.jpg') !important;
+}
+.page-template-default > #header >.bottom-header > .container > div >div > h1{
+	text-shadow: 1px 1px 24px #444040;
+	margin: -48px 0 0 7px !important;
+	font-size: 70px !important;
+	text-align: right;
+}
+
+.page-template-default > #header >.bottom-header > .container > div >div > h5{
+	font-family: dual;
+	color: white;
+	text-shadow: 1px 1px 24px #444040;
+}
+
+.blog-post-title{
+	display: none !important;
+}
+
+body.home > header{
+	height: 100% !important;
+}
+
+.home > .front-page-section > .section-header > div > div > div {
+	display: none;
+}
+
+#static-page-content {
+	padding: 0px 0 85px 0 !important;
+}
+
+#footer > .bottom-footer{
+	background-color: #ddb045;
+}

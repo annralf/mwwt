@@ -1550,6 +1550,7 @@ body {
 #masthead .wrap {
 	position: relative;
 	text-align: center;
+	background-color: blue;
 }
 
 .site-header {
@@ -1560,7 +1561,7 @@ body {
 /* Site branding */
 
 .site-branding {
-	padding: 1em 0;
+	padding: 0 !important; 
 	position: relative;
 	-webkit-transition: margin-bottom 0.2s;
 	transition: margin-bottom 0.2s;
@@ -1618,15 +1619,17 @@ body.has-header-video .site-description {
 
 .custom-logo-link {
 	display: inline-block;
-	padding-right: 1em;
+	padding-right: 0;
 	vertical-align: middle;
 	width: auto;
 }
 
 .custom-logo-link img {
 	display: inline-block;
-	max-height: 80px;
-	width: auto;
+	height: 35vh !important;
+	width: 13vw !importantf;
+	padding-top:  1em;
+
 }
 
 body.home.title-tagline-hidden.has-header-image .custom-logo-link img,
