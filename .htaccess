@@ -1,0 +1,17 @@
+<IfModule  mod_php7.c>
+php_value upload_max_filesize 70M
+php_value post_max_size 80M
+php_value memory_limit 90M
+php_value max_execution_time 240
+php_value max_input_time 240
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /mwwt_wp/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /mwwt_wp/index.php [L]
+</IfModule>
+
